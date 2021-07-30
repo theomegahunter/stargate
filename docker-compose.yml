@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+    db:
+        image: mariadb:10.6.3
+        restart: always
+        environment:
+            MARIADB_ROOT_PASSWORD: my-encrypted-pwd
+            MARIADB_USER: stargatecmd
+            MARIADB_PASSWORD: tauri
+            MARIADB_DATABASE: stargate
+        volumes:
+            - stargate_data:/var/lib/mysql
+
+volumes:
+    stargate_data: {}

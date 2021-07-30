@@ -4,7 +4,7 @@ Homebrewing my own Stargate Dialing Computer, intending to update the UI along t
 ## Goals:
 ### Runs in a container
 
-### Use Flyweight to control database setup
+### Use Flyway to control database setup
 
 ### Container based backing database populated with:
  1. Volume enabled
@@ -32,7 +32,20 @@ Homebrewing my own Stargate Dialing Computer, intending to update the UI along t
 ### Restful API
   1. status check
   2. dialing
-  
+
+### Stretch goals
+GDO support
+DHD Interface
+Atlantis Style DHD
+Audio visualization?
+Easter eggs?
+
+### Exclusions
+Time dilation effects
+Locking out gate addresses
+MALP/UAV/SG Teams
+Video clips
+
 ## Technologies Used:
 [X] Spring boot
 [X] Junit
@@ -42,6 +55,12 @@ Homebrewing my own Stargate Dialing Computer, intending to update the UI along t
 [X] Lombok
 [X] Testcontainers?
 
-Disclosure:
+## References:
+https://www.youtube.com/watch?v=qrs6PPQznaA
+https://www.youtube.com/watch?v=-y28PdaqZw4
+https://www.rdanderson.com/stargate/glyphs/index.htm
+
+
+# Disclosure:
 Stargate and related properties are copyright of MGM. Please support further gate travel by
 supporting them.
